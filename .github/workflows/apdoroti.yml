@@ -1,0 +1,21 @@
+name: Apdoroti nuotraukas
+on:
+  push:
+    paths: ["restoranai.json", "scripts/apdoroti.py", "sablonai/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apdoroti:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install "rembg[cpu]==2.0.57" pillow
+      - run: python scripts/apdoroti.py
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add pavyzdziai
+          git diff --cached --quiet || (git commit -m "Apdorotos nuotraukos" && git push)
