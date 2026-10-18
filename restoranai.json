@@ -1,3 +1,47 @@
 [
-  {"slug": "zemaiciu-asotis", "pavadinimas": "Žemaičių ąsotis", "el_pastas": "zemaiciuasotis@yahoo.com", "nuotrauka": "https://zemaiciuasotis.lt/wp-content/uploads/2018/05/20151014_145059-min.jpg", "perdaryti": true, "issiusta": "2026-10-07"}
+  {
+    "slug": "zemaiciu-asotis",
+    "pavadinimas": "Žemaičių ąsotis",
+    "el_pastas": "zemaiciuasotis@yahoo.com",
+    "nuotrauka": "https://zemaiciuasotis.lt/wp-content/uploads/2018/05/20151014_145059-min.jpg",
+    "perdaryti": false,
+    "issiusta": "2026-10-07"
+  },
+  {
+    "slug": "salsa-rosa",
+    "pavadinimas": "Salsa Rosa",
+    "miestas": "Alytus",
+    "el_pastas": "uabtavernela@gmail.com",
+    "nuotrauka": "https://imageproxy.wolt.com/assets/67a333b83a026e62a622678b"
+  },
+  {
+    "slug": "cicinskas",
+    "pavadinimas": "Čičinskas",
+    "miestas": "Panevėžys",
+    "el_pastas": "kristina@ukr.lt",
+    "nuotrauka": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ff2f53ac23321d39ce225fd/110cbb76-7db9-11eb-bc48-ba8200027719__a_lykai.jpeg"
+  },
+  {
+    "slug": "leja",
+    "pavadinimas": "LEJA",
+    "miestas": "Šiauliai",
+    "el_pastas": "leja@leja.lt",
+    "nuotrauka": "https://wolt-menu-images-cdn.wolt.com/menu-images/60a635dd231f9cea1156ca9b/6b77a4fa-c499-11eb-8507-4ae5dd17de8f_60549574_1160329264129091_2369225426443698176_n.jpeg"
+  },
+  {
+    "slug": "grill-innam",
+    "pavadinimas": "GRILL INN'am",
+    "miestas": "Šiauliai",
+    "el_pastas": "",
+    "telefonas": "+37065553308",
+    "nuotrauka": "https://imageproxy.wolt.com/assets/69144c382d5740aaaa597808"
+  },
+  {
+    "slug": "kebabine-prie-profkes",
+    "pavadinimas": "Kebabinė prie Profkės",
+    "miestas": "Mažeikiai",
+    "el_pastas": "",
+    "telefonas": "+37060379450",
+    "nuotrauka": "https://imageproxy.wolt.com/assets/6981df72e4940faa6a4eccf4"
+  }
 ]
